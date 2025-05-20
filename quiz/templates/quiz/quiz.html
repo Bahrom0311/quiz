@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        .question { margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .question p { font-weight: bold; }
+        .options { margin: 10px 0; }
+        .option { margin: 5px 0; }
+        .check-btn { 
+            padding: 8px 15px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            margin: 10px 0;
+        }
+        .check-btn:hover { background-color: #45a049; }
+        .result { 
+            margin-top: 10px; 
+            padding: 10px; 
+            border-radius: 4px; 
+            display: none;
+        }
+        .correct { background-color: #dff0d8; color: #3c763d; }
+        .incorrect { background-color: #f2dede; color: #a94442; }
+        .final-score {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Quiz</h1>
+<div id="questions">
+  {% for q in questions %}
+    <div class="question" id="question-{{ forloop.counter0 }}">
+      <p>{{ forloop.counter }}. {{ q.text }}</p>
+      <div class="options">
+        <label class="option"><input type="radio" name="q{{ forloop.counter0 }}" value="1" required> {{ q.options.0 }}</label><br>
+        <label class="option"><input type="radio" name="q{{ forloop.counter0 }}" value="2"> {{ q.options.1 }}</label><br>
+        <label class="option"><input type="radio" name="q{{ forloop.counter0 }}" value="3"> {{ q.options.2 }}</label><br>
+        <label class="option"><input type="radio" name="q{{ forloop.counter0 }}" value="4"> {{ q.options.3 }}</label>
+      </div>
+      <button class="check-btn" onclick="checkAnswer({{ forloop.counter0 }})">Javobni tekshirish</button>
+      <div class="result" id="result-{{ forloop.counter0 }}"></div>
+    </div>
+    <hr>
+  {% endfor %}
+</div>
+
+<div class="final-score" id="final-score">
+  <h3>Umumiy natija</h3>
+  <p>To'g'ri javoblar: <span id="correct-count">0</span></p>
+  <p>Jami savollar: <span id="total-questions">{{ questions|length }}</span></p>
+</div>
+
+<script>
+let answeredQuestions = new Set();
+let correctAnswers = 0;
+
+function checkAnswer(questionIndex) {
+    const questionDiv = document.getElementById(`question-${questionIndex}`);
+    const selectedOption = questionDiv.querySelector('input[type="radio"]:checked');
+    const resultDiv = document.getElementById(`result-${questionIndex}`);
+    
+    if (!selectedOption) {
+        alert('Iltimos, javobni tanlang!');
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append('question_index', questionIndex);
+    formData.append('answer', selectedOption.value);
+    formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+
+    fetch('{% url "check_answer" %}', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        resultDiv.style.display = 'block';
+        if (data.correct) {
+            resultDiv.className = 'result correct';
+            resultDiv.textContent = 'To\'g\'ri!';
+            if (!answeredQuestions.has(questionIndex)) {
+                correctAnswers++;
+                answeredQuestions.add(questionIndex);
+            }
+        } else {
+            resultDiv.className = 'result incorrect';
+            resultDiv.textContent = `Noto'g'ri. To'g'ri javob: ${data.correct_answer}`;
+            if (answeredQuestions.has(questionIndex)) {
+                correctAnswers--;
+                answeredQuestions.delete(questionIndex);
+            }
+        }
+        
+        // Update final score
+        document.getElementById('correct-count').textContent = correctAnswers;
+        document.getElementById('final-score').style.display = 'block';
+        
+        // Disable radio buttons after answering
+        const radioButtons = questionDiv.querySelectorAll('input[type="radio"]');
+        radioButtons.forEach(radio => radio.disabled = true);
+    });
+}
+</script>
+</body>
+</html> 

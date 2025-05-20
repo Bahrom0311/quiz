@@ -1,0 +1,1902 @@
+[
+  {
+    "savol": "SQL ichida ma'lumotlarni qanday tarzda saqlaydi?",
+    "variantlar": [
+      "Jadvallar ko'rinishida",
+      "Fayllar ko'rinishida",
+      "Papkalar ko'rinishida",
+      "Grafik ko'rinishda"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL uchun standart foydalanuvchi nomi nima?",
+    "variantlar": [
+      "admin",
+      "root",
+      "user",
+      "mysql"
+    ],
+    "togri_javob": 2
+  },
+  {
+    "savol": "MySQL da jadvalni o'chirish sintaksisi qanday?",
+    "variantlar": [
+      "DROP TABLE jadval_nomi;",
+      "DELETE jadval_nomi;",
+      "REMOVE TABLE jadval_nomi;",
+      "ERASE jadval_nomi;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SQL da jadvalni yaratish sintaksisi qanday?",
+    "variantlar": [
+      "CREATE TABLE jadval_nomi (...);",
+      "NEW TABLE jadval_nomi (...);",
+      "ADD TABLE jadval_nomi (...);",
+      "MAKE TABLE jadval_nomi (...);"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SQL nimani anglatadi?",
+    "variantlar": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "System Query Language",
+      "Standard Query Language"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL da yangi ma'lumotlar bazasini yaratish sintaksisi qanday?",
+    "variantlar": [
+      "CREATE DATABASE baza_nomi;",
+      "NEW DATABASE baza_nomi;",
+      "ADD DATABASE baza_nomi;",
+      "MAKE DATABASE baza_nomi;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL da ma'lumotlar bazasini o'chirish sintaksisi qanday?",
+    "variantlar": [
+      "DROP DATABASE baza_nomi;",
+      "DELETE DATABASE baza_nomi;",
+      "REMOVE DATABASE baza_nomi;",
+      "ERASE DATABASE baza_nomi;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ham vaqt ham sanani saqlash uchun qanday ma'lumot turi ishlatiladi?",
+    "variantlar": [
+      "DATETIME",
+      "DATE",
+      "TIME",
+      "TIMESTAMP"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Agar siz 1 dan 10 gacha bo'lgan sonlarni saqlamoqchi bo'lsangiz, qanday ma'lumot turini tanlasangiz eng optimal bo'ladi?",
+    "variantlar": [
+      "TINYINT",
+      "VARCHAR",
+      "FLOAT",
+      "DATE"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Hisob kitob muhim bo'lganda qanday ma'lumot turi ishlatilishi maslahat beriladi?",
+    "variantlar": [
+      "DECIMAL",
+      "VARCHAR",
+      "DATE",
+      "BOOLEAN"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvalga yangi qator qo'shish uchun MySQL da qanday kalit so'z ishlatiladi?",
+    "variantlar": [
+      "INSERT INTO",
+      "ADD ROW",
+      "NEW ROW",
+      "APPEND"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvaldagi mavjud ma'lumotlarni o'zgartirish uchun MySQL tilida qanday kalit so'z ishlatiladi?",
+    "variantlar": [
+      "UPDATE",
+      "CHANGE",
+      "MODIFY",
+      "EDIT"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ma'lumotlar bazasi o'zi nima?",
+    "variantlar": [
+      "Ma'lumotlarni tartibli saqlash tizimi",
+      "Fayllarni siqish dasturi",
+      "Internet tarmog'i",
+      "Grafik muharriri"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Database qayerlarda ishlatiladi?",
+    "variantlar": [
+      "Deyarli barcha sohalarda",
+      "Faqat banklarda",
+      "Faqat maktablarda",
+      "Faqat do'konlarda"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Database tarkibi nimalardan iborat?",
+    "variantlar": [
+      "Jadval, ustun, qator",
+      "Fayl, papka, disk",
+      "Rasm, video, audio",
+      "Kod, dastur, modul"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Baza va Jadval yaratganda ularga qanday belgilarni qatnashtirib nom qo'yib bo'lmaydi",
+    "variantlar": [
+      "Bo'sh joy, maxsus belgilar",
+      "Faqat harflar",
+      "Faqat raqamlar",
+      "Faqat kichik harflar"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Faqat Text ma'lumot turi ko'rsatilgan qatorni tanlang",
+    "variantlar": [
+      "VARCHAR",
+      "INT",
+      "DATE",
+      "FLOAT"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Faqat butun sonli ma'lumot turi ko'rsatilgan qatorni tanlang",
+    "variantlar": [
+      "INT",
+      "VARCHAR",
+      "DATE",
+      "FLOAT"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Faqat haqiqiy sonli ma'lumot turi ko'rsatilgan qatorni tanlang",
+    "variantlar": [
+      "FLOAT",
+      "VARCHAR",
+      "DATE",
+      "BOOLEAN"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Faqat sana ma'lumot turi ko'rsatilgan qatorni tanlang",
+    "variantlar": [
+      "DATE",
+      "VARCHAR",
+      "FLOAT",
+      "BOOLEAN"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Biror bir hikoya yoki maqolalarni saqlaganda qanday ma'lumot turidan foydalanish maqsadga muvofiq?",
+    "variantlar": [
+      "TEXT",
+      "INT",
+      "DATE",
+      "FLOAT"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Poyezdning kelish va ketish vaqtlarini qanday ma'lumot turida saqlash maqsadga muvofiq?",
+    "variantlar": [
+      "DATETIME",
+      "VARCHAR",
+      "INT",
+      "BOOLEAN"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Mahsulotlarning hajmini saqlash uchun qanday ma'lumot turidan foydalanish maqsadga muvofiq?",
+    "variantlar": [
+      "FLOAT",
+      "VARCHAR",
+      "DATE",
+      "BOOLEAN"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Turmush qurganligi to'g'risidagi ma'lumotni saqlash uchun qanday ma'lumot turini ishlatish maqsadga muvofiq?",
+    "variantlar": [
+      "BOOLEAN",
+      "VARCHAR",
+      "DATE",
+      "FLOAT"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Passport seriya va raqamini saqlash uchun qanday ma'lumot turini ishlatish maqsadga muvofiq?",
+    "variantlar": [
+      "VARCHAR",
+      "INT",
+      "DATE",
+      "FLOAT"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Mijozlar bilan uchrashuv vaqtlarini saqlab borish uchun qanday ma'lumot turidan foydalanish maqsadga muvofiq?",
+    "variantlar": [
+      "DATETIME",
+      "VARCHAR",
+      "INT",
+      "BOOLEAN"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvalga ma'lumot kiritish so'rovi to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "INSERT INTO jadval (ustunlar) VALUES (qiymatlar);",
+      "ADD jadval (ustunlar) VALUES (qiymatlar);",
+      "NEW jadval (ustunlar) VALUES (qiymatlar);",
+      "APPEND jadval (ustunlar) VALUES (qiymatlar);"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Xodimlar jadvalidagi familiya ustuniga Aminov yozuvini kiritish so'rovini ko'rsating",
+    "variantlar": [
+      "UPDATE xodimlar SET familiya='Aminov';",
+      "INSERT INTO xodimlar (familiya) VALUES ('Aminov');",
+      "ADD xodimlar (familiya) VALUES ('Aminov');",
+      "NEW xodimlar (familiya) VALUES ('Aminov');"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL da ustunga NOT NULL qiymati berilsa qanday vazifa bajariladi?",
+    "variantlar": [
+      "Ustun bo'sh qoldirilmaydi",
+      "Ustun faqat raqam qabul qiladi",
+      "Ustun faqat matn qabul qiladi",
+      "Ustun faqat sanani qabul qiladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL da DEFAULT kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Standart qiymat beradi",
+      "Ustunni o'chiradi",
+      "Ustunni yangilaydi",
+      "Ustunni bo'sh qoldiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CRUD nima?",
+    "variantlar": [
+      "Yaratish, o'qish, yangilash, o'chirish",
+      "Ma'lumotlarni siqish",
+      "Ma'lumotlarni eksport qilish",
+      "Ma'lumotlarni import qilish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SQL da CREAT amali nima?",
+    "variantlar": [
+      "Yaratish",
+      "O'chirish",
+      "Yangilash",
+      "O'qish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SQL da READ amali nima?",
+    "variantlar": [
+      "O'qish",
+      "Yaratish",
+      "Yangilash",
+      "O'chirish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SQL da UPDATE amali nima?",
+    "variantlar": [
+      "Yangilash",
+      "O'chirish",
+      "O'qish",
+      "Yaratish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SQL da DELETE amali nima?",
+    "variantlar": [
+      "O'chirish",
+      "Yangilash",
+      "O'qish",
+      "Yaratish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT operatori vazifasi nima?",
+    "variantlar": [
+      "Ma'lumotlarni tanlash",
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni yangilash",
+      "Ma'lumotlarni yaratish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "UPDATE operatori vazifasi nima?",
+    "variantlar": [
+      "Ma'lumotlarni yangilash",
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni tanlash",
+      "Ma'lumotlarni yaratish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "INSERT INTO operatori vazifasi nima?",
+    "variantlar": [
+      "Ma'lumotlarni qo'shish",
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni yangilash",
+      "Ma'lumotlarni tanlash"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DELETE operatori vazifasi nima?",
+    "variantlar": [
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni qo'shish",
+      "Ma'lumotlarni yangilash",
+      "Ma'lumotlarni tanlash"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT * FROM mahsulotlar;  So'rovi vazifasi nima?",
+    "variantlar": [
+      "Barcha mahsulotlarni tanlaydi",
+      "Barcha mahsulotlarni o'chiradi",
+      "Barcha mahsulotlarni yangilaydi",
+      "Barcha mahsulotlarni yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT uchish_vaqti, joy_nomi FROM samolyotlar;  So'rovi vazifasi nima?",
+    "variantlar": [
+      "Faqat uchish vaqti va joy nomini tanlaydi",
+      "Barcha ustunlarni tanlaydi",
+      "Faqat joy nomini tanlaydi",
+      "Faqat uchish vaqtini tanlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "WHERE operatori vazifasi nima?",
+    "variantlar": [
+      "Shart qo'yish uchun",
+      "Jadval yaratish uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Ustun qo'shish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "!=' va '<>' ifodalari qachon ishlatiladi?",
+    "variantlar": [
+      "Teng emasligini tekshirish uchun",
+      "Qo'shish uchun",
+      "O'chirish uchun",
+      "Yangilash uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ushbu so'rovning vazifasi nima?  SELECT * FROM testlar WHERE t_javob = javoblar;",
+    "variantlar": [
+      "t_javob va javoblar teng bo'lganlarni tanlaydi",
+      "Barcha testlarni o'chiradi",
+      "Barcha testlarni yangilaydi",
+      "Barcha testlarni yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ushbu so'rovning vazifasi nima?  SELECT javoblar FROM testlar WHERE t_javob = javoblar;",
+    "variantlar": [
+      "Faqat javoblar ustunini tanlaydi",
+      "Barcha ustunlarni tanlaydi",
+      "Faqat testlar ustunini tanlaydi",
+      "Faqat t_javob ustunini tanlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "AND amali vazifasi nima?",
+    "variantlar": [
+      "Ikkala shart ham bajarilganda TRUE qaytaradi",
+      "Hech qachon TRUE qaytarmaydi",
+      "Faqat birinchi shart bajarilganda TRUE qaytaradi",
+      "Faqat ikkinchi shart bajarilganda TRUE qaytaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "OR amali vazifasi nima?",
+    "variantlar": [
+      "Kamida bitta shart bajarilganda TRUE qaytaradi",
+      "Faqat barcha shartlar bajarilganda TRUE qaytaradi",
+      "Hech qachon TRUE qaytarmaydi",
+      "Faqat birinchi shart bajarilganda TRUE qaytaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "NOT amali vazifasi nima?",
+    "variantlar": [
+      "Shartni inkor qiladi",
+      "Shartni tasdiqlaydi",
+      "Shartni o'chiradi",
+      "Shartni yangilaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "FALSE AND TRUE amalidan qanday natija qaytadi?",
+    "variantlar": [
+      "FALSE",
+      "TRUE",
+      "NULL",
+      "1"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "TRUE OR FALSE amalidan qanday natija qaytadi?",
+    "variantlar": [
+      "TRUE",
+      "FALSE",
+      "NULL",
+      "0"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "NOT TRUE amalidan qanday natija qaytadi?",
+    "variantlar": [
+      "FALSE",
+      "TRUE",
+      "NULL",
+      "0"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ushbu so'rov qanday vazifa bajaradi. SELECT * FROM uqituvchilar WHERE lavozimi='assistant o'qituvchi' AND oyligi>=5 000 000",
+    "variantlar": [
+      "Lavozimi assistant o'qituvchi va oyligi 5 mln dan yuqori bo'lganlarni tanlaydi",
+      "Barcha uqituvchilarni o'chiradi",
+      "Barcha uqituvchilarni yangilaydi",
+      "Barcha uqituvchilarni yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "IS - kalit so'zi nima vazifani bajaradi?",
+    "variantlar": [
+      "NULL yoki TRUE/FALSE qiymatlarni tekshiradi",
+      "Jadval yaratadi",
+      "Ustun qo'shadi",
+      "Ma'lumotlarni o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "BETWEEN operatori vazifasi nima?",
+    "variantlar": [
+      "Oraliqdagi qiymatlarni tanlash uchun",
+      "Faqat bitta qiymatni tanlash uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Jadval yaratish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "IN operatori vazifasi nima?",
+    "variantlar": [
+      "Bir nechta qiymatlarni tanlash uchun",
+      "Faqat bitta qiymatni tanlash uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Jadval yaratish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "LIKE operatori vazifasi nima?",
+    "variantlar": [
+      "O'xshash qiymatlarni qidirish uchun",
+      "Qiymatlarni o'chirish uchun",
+      "Jadval yaratish uchun",
+      "Ustun qo'shish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ORDER BY operatori vazifasi nima?",
+    "variantlar": [
+      "Ma'lumotlarni tartiblash uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Jadval yaratish uchun",
+      "Ustun qo'shish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DISTINCT kalit so'zi nima vazifani bajaradi?",
+    "variantlar": [
+      "Takroriy qiymatlarni olib tashlaydi",
+      "Jadval yaratadi",
+      "Ustun qo'shadi",
+      "Ma'lumotlarni o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "LIMIT kalit so'zi nima vazifani bajaradi?",
+    "variantlar": [
+      "Natijalar sonini cheklaydi",
+      "Jadval yaratadi",
+      "Ustun qo'shadi",
+      "Ma'lumotlarni o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "OFFSET kalit so'zi nima vazifani bajaradi?",
+    "variantlar": [
+      "Natijalarni ma'lum bir joydan boshlab ko'rsatadi",
+      "Jadval yaratadi",
+      "Ustun qo'shadi",
+      "Ma'lumotlarni o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Uqituvchilar jadvalidan lavozimi assistent yoki stajor o'qituvchilarni tanlash so'rovini ko'rsating",
+    "variantlar": [
+      "SELECT * FROM uqituvchilar WHERE lavozimi IN ('assistent', 'stajor')",
+      "SELECT * FROM uqituvchilar WHERE lavozimi = 'assistent' OR lavozimi = 'stajor'",
+      "SELECT * FROM uqituvchilar WHERE lavozimi LIKE '%assistent%' OR lavozimi LIKE '%stajor%'",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 4
+  },
+  {
+    "savol": "Uqituvchilar jadvalidan yillik_staji 5 yildan 9 yilgacha bo'lgan o'qituvchilar ro'yxatini chiqaring",
+    "variantlar": [
+      "SELECT * FROM uqituvchilar WHERE yillik_staji BETWEEN 5 AND 9",
+      "SELECT * FROM uqituvchilar WHERE yillik_staji >= 5 AND yillik_staji <= 9",
+      "SELECT * FROM uqituvchilar WHERE yillik_staji > 4 AND yillik_staji < 10",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 4
+  },
+  {
+    "savol": "Uqituvchilar jadvalidan 4 mln dan 7 mln gacha oylik oluvchi o'qituvchilarni ro'yxatini chiqaring",
+    "variantlar": [
+      "SELECT * FROM uqituvchilar WHERE oyligi BETWEEN 4000000 AND 7000000",
+      "SELECT * FROM uqituvchilar WHERE oyligi >= 4000000 AND oyligi <= 7000000",
+      "SELECT * FROM uqituvchilar WHERE oyligi > 3999999 AND oyligi < 7000001",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 4
+  },
+  {
+    "savol": "Talabalar jadvalida fio ustunida Alisher ismli talabani tanlash so'rovini yozing",
+    "variantlar": [
+      "SELECT * FROM talabalar WHERE fio = 'Alisher'",
+      "SELECT * FROM talabalar WHERE fio LIKE '%Alisher%'",
+      "SELECT * FROM talabalar WHERE fio IN ('Alisher')",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 4
+  },
+  {
+    "savol": "WHERE bandida BETWEEN operatorining ishlatilishi to'g'ri berilgan qatorni toping.",
+    "variantlar": [
+      "SELECT * FROM jadval WHERE yosh BETWEEN 18 AND 25",
+      "SELECT * FROM jadval WHERE yosh >= 18 AND yosh <= 25",
+      "SELECT * FROM jadval WHERE yosh > 17 AND yosh < 26",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "WHERE bandida IN operatorining ishlatilishi to'g'ri berilgan qatorni toping.",
+    "variantlar": [
+      "SELECT * FROM jadval WHERE ism IN ('Ali', 'Vali')",
+      "SELECT * FROM jadval WHERE ism = 'Ali' OR ism = 'Vali'",
+      "SELECT * FROM jadval WHERE ism LIKE '%Ali%' OR ism LIKE '%Vali%'",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "WHERE bandida LIKE operatorining ishlatilishi to'g'ri berilgan qatorni toping.",
+    "variantlar": [
+      "SELECT * FROM jadval WHERE ism LIKE '%Ali%'",
+      "SELECT * FROM jadval WHERE ism = 'Ali'",
+      "SELECT * FROM jadval WHERE ism IN ('Ali')",
+      "SELECT * FROM jadval WHERE ism BETWEEN 'Ali' AND 'Vali'"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "AS kalit so'zi vazifasini ko'rsating?",
+    "variantlar": [
+      "Ustunga yoki natijaga nom berish uchun",
+      "Jadval yaratish uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Ustun qo'shish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MIN() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Eng kichik qiymatni topadi",
+      "Eng katta qiymatni topadi",
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni o'rtacha hisoblaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MAX() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Eng katta qiymatni topadi",
+      "Eng kichik qiymatni topadi",
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni o'rtacha hisoblaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SUM() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni ayiradi",
+      "Qiymatlarni ko'paytiradi",
+      "Qiymatlarni bo'ladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "AVG() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Qiymatlarni o'rtacha hisoblaydi",
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni ko'paytiradi",
+      "Qiymatlarni bo'ladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "COUNT() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Qatorlar sonini hisoblaydi",
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni ko'paytiradi",
+      "Qiymatlarni bo'ladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ROUND() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Sonlarni yaxlitlaydi",
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni ko'paytiradi",
+      "Qiymatlarni bo'ladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "LENGTH() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matn uzunligini aniqlaydi",
+      "Qiymatlarni qo'shadi",
+      "Qiymatlarni ko'paytiradi",
+      "Qiymatlarni bo'ladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "LEFT() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matnning chap tomonidan belgilarni ajratib oladi",
+      "Matnning o'ng tomonidan belgilarni ajratib oladi",
+      "Matn uzunligini aniqlaydi",
+      "Matnni katta harfga o'zgartiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "RIGHT() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matnning o'ng tomonidan belgilarni ajratib oladi",
+      "Matnning chap tomonidan belgilarni ajratib oladi",
+      "Matn uzunligini aniqlaydi",
+      "Matnni kichik harfga o'zgartiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SUBSTR() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matndan qism ajratib oladi",
+      "Matn uzunligini aniqlaydi",
+      "Matnni katta harfga o'zgartiradi",
+      "Matnni kichik harfga o'zgartiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "UPPER() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matnni katta harfga o'zgartiradi",
+      "Matnni kichik harfga o'zgartiradi",
+      "Matn uzunligini aniqlaydi",
+      "Matndan qism ajratib oladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "LOWER() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matnni kichik harfga o'zgartiradi",
+      "Matnni katta harfga o'zgartiradi",
+      "Matn uzunligini aniqlaydi",
+      "Matndan qism ajratib oladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CONCAT() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matnlarni birlashtiradi",
+      "Matnlarni bo'ladi",
+      "Matnlarni o'chiradi",
+      "Matnlarni teskari qiladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REPLACE() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Matndagi belgilarni almashtiradi",
+      "Matnni katta harfga o'zgartiradi",
+      "Matnni kichik harfga o'zgartiradi",
+      "Matn uzunligini aniqlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "POSITION() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Belgining matndagi o'rnini aniqlaydi",
+      "Matn uzunligini aniqlaydi",
+      "Matnni katta harfga o'zgartiradi",
+      "Matnni kichik harfga o'zgartiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DAY() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Sanadan kunni ajratib oladi",
+      "Sanadan oyning nomini ajratib oladi",
+      "Sanadan yilni ajratib oladi",
+      "Sanadan soatni ajratib oladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MONTH() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Sanadan oyning nomini ajratib oladi",
+      "Sanadan kunni ajratib oladi",
+      "Sanadan yilni ajratib oladi",
+      "Sanadan soatni ajratib oladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "YEAR() funksiyasi vazifasini ko'rsating",
+    "variantlar": [
+      "Sanadan yilni ajratib oladi",
+      "Sanadan oyning nomini ajratib oladi",
+      "Sanadan kunni ajratib oladi",
+      "Sanadan soatni ajratib oladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GROUP BY operatori vazifasini ko'rsating",
+    "variantlar": [
+      "Ma'lumotlarni guruhlash uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Jadval yaratish uchun",
+      "Ustun qo'shish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "HAVING operatori vazifasini ko'rsating",
+    "variantlar": [
+      "Guruhlangan natijalarga shart qo'yish uchun",
+      "Jadval yaratish uchun",
+      "Ma'lumotlarni o'chirish uchun",
+      "Ustun qo'shish uchun"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvaldagi ma'lumotlarni yangilash so'rovi to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "UPDATE jadval SET ustun=qiymat WHERE shart;",
+      "INSERT INTO jadval (ustun) VALUES (qiymat);",
+      "DELETE FROM jadval WHERE shart;",
+      "SELECT * FROM jadval;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvaldan ma'lumot o'chirish so'rovi to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "DELETE FROM jadval WHERE shart;",
+      "UPDATE jadval SET ustun=qiymat WHERE shart;",
+      "INSERT INTO jadval (ustun) VALUES (qiymat);",
+      "SELECT * FROM jadval;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvaldan ma'lumotlarni tanlash so'rovi to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "SELECT * FROM jadval;",
+      "UPDATE jadval SET ustun=qiymat WHERE shart;",
+      "DELETE FROM jadval WHERE shart;",
+      "INSERT INTO jadval (ustun) VALUES (qiymat);"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GROUP BY, WHERE va HAVING operatorlari ishlatilish ketma-ketligi to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "WHERE, GROUP BY, HAVING",
+      "GROUP BY, WHERE, HAVING",
+      "HAVING, WHERE, GROUP BY",
+      "GROUP BY, HAVING, WHERE"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT SUM(yillik_staji) FROM uqituvchilar; so'rovning vazifasi qanday?",
+    "variantlar": [
+      "Yillik stajlar yig'indisini hisoblaydi",
+      "Yillik stajlar o'rtachasini hisoblaydi",
+      "Yillik stajlar sonini hisoblaydi",
+      "Yillik stajlar eng kattasini topadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT 35 % 8 AS result;  so'rovning natijasini ko'rsating",
+    "variantlar": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT RIGHT(\"Hemis\",2) AS result; so'rov natijasini ko'rsating",
+    "variantlar": [
+      "is",
+      "He",
+      "mi",
+      "em"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT SUBSTR(\"Hemis\",1,2) AS result; so'rov natijasini ko'rsating",
+    "variantlar": [
+      "He",
+      "is",
+      "em",
+      "mi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "WHERE va HAVING operatorlari farqi nimada?",
+    "variantlar": [
+      "WHERE - oddiy shart, HAVING - guruhlangan natijaga shart",
+      "Ikkalasi ham bir xil",
+      "HAVING - oddiy shart, WHERE - guruhlangan natijaga shart",
+      "Farqu yo'q"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SELECT AVG(yillik_staji) FROM uqituvchilar GROUP BY yillik_staji; so'rovning vazifasi qanday?",
+    "variantlar": [
+      "Har bir yillik staj uchun o'rtacha qiymatni hisoblaydi",
+      "Yillik stajlar yig'indisini hisoblaydi",
+      "Yillik stajlar sonini hisoblaydi",
+      "Yillik stajlar eng kattasini topadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Talabalar jadvalidan 911-19 yoki 912-19 guruhidagi talabalarni o'chirish so'rovini toping",
+    "variantlar": [
+      "DELETE FROM talabalar WHERE guruh IN ('911-19', '912-19')",
+      "DELETE FROM talabalar WHERE guruh = '911-19' OR guruh = '912-19'",
+      "DELETE FROM talabalar WHERE guruh LIKE '%911-19%' OR guruh LIKE '%912-19%'",
+      "Barcha javoblar to'g'ri"
+    ],
+    "togri_javob": 4
+  },
+  {
+    "savol": "Uqituvchilar jadvalidan oyligi 5 mln dan kam bo'lgan uqituvchilarni oyligini 5 mln ga o'zgartirish so'rovini ko'rsating",
+    "variantlar": [
+      "UPDATE uqituvchilar SET oyligi=5000000 WHERE oyligi<5000000",
+      "UPDATE uqituvchilar SET oyligi=5000000 WHERE oyligi<=5000000",
+      "UPDATE uqituvchilar SET oyligi=5000000 WHERE oyligi>5000000",
+      "UPDATE uqituvchilar SET oyligi=5000000 WHERE oyligi>=5000000"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Duplikatlar nima?",
+    "variantlar": [
+      "Bir xil ma'lumotlarning takrorlanishi",
+      "Yangi jadval yaratish",
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni yangilash"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rovlarni ishlashi nega sekinlashadi?",
+    "variantlar": [
+      "Jadvalda ko'p ma'lumot bo'lsa",
+      "Internet tezligi past bo'lsa",
+      "Kirish paroli noto'g'ri bo'lsa",
+      "Foydalanuvchi nomi noto'g'ri bo'lsa"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ID nima?",
+    "variantlar": [
+      "Unikal identifikator",
+      "Jadval nomi",
+      "Ustun nomi",
+      "Ma'lumot turi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Jadvalni to'g'ri dizayn qilish uchun nimalar qilish kerak. Faqat to'g'ri yechim yozilgan qatorni toping?",
+    "variantlar": [
+      "Har bir ustun uchun mos ma'lumot turini tanlash",
+      "Faqat VARCHAR ishlatish",
+      "Faqat INT ishlatish",
+      "Faqat DATE ishlatish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ko'pga ko'p bog'lanish qanday hosil bo'ladi?",
+    "variantlar": [
+      "Oraliq jadval orqali",
+      "To'g'ridan-to'g'ri bog'lanadi",
+      "Faqat bir ustun orqali",
+      "Faqat bir qator orqali"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "n:n bog'lanish qanday hosil bo'ladi?",
+    "variantlar": [
+      "Oraliq jadval orqali",
+      "To'g'ridan-to'g'ri bog'lanadi",
+      "Faqat bir ustun orqali",
+      "Faqat bir qator orqali"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "PK va UK qo'yishdan maqsad nima?",
+    "variantlar": [
+      "Unikal va asosiy kalitlarni belgilash",
+      "Jadval nomini o'zgartirish",
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni yangilash"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ALTER TABLE vazifasi nima?",
+    "variantlar": [
+      "Jadval tuzilmasini o'zgartirish",
+      "Jadvalni o'chirish",
+      "Jadvalga ma'lumot qo'shish",
+      "Jadvaldan ma'lumot o'chirish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ALTER TABLE ning ADD vazifasi nima?",
+    "variantlar": [
+      "Yangi ustun qo'shish",
+      "Jadvalni o'chirish",
+      "Jadvalga ma'lumot qo'shish",
+      "Jadvaldan ma'lumot o'chirish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? ALTER TABLE Reyslar ADD poyezdlar VARCHAR(50)",
+    "variantlar": [
+      "Reyslar jadvaliga poyezdlar ustuni qo'shadi",
+      "Reyslar jadvalini o'chiradi",
+      "Reyslar jadvaliga yangi qator qo'shadi",
+      "Reyslar jadvalidan ustun o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? ALTER TABLE Kitolar DROP COLUMN kitob_nomi",
+    "variantlar": [
+      "Kitolar jadvalidan kitob_nomi ustunini o'chiradi",
+      "Kitolar jadvaliga kitob_nomi ustuni qo'shadi",
+      "Kitolar jadvalini o'chiradi",
+      "Kitolar jadvaliga yangi qator qo'shadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? ALTER TABLE Reyslar MODIFY COLUMN poyezdlar VARCHAR(100)",
+    "variantlar": [
+      "poyezdlar ustunining ma'lumot turini o'zgartiradi",
+      "Reyslar jadvalini o'chiradi",
+      "Reyslar jadvaliga yangi qator qo'shadi",
+      "Reyslar jadvalidan ustun o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "AUTO_INCREMENT nima vazifa bajaradi?",
+    "variantlar": [
+      "Avtomatik raqam berish",
+      "Matnni katta harfga o'zgartirish",
+      "Matnni kichik harfga o'zgartirish",
+      "Matn uzunligini aniqlash"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? ALTER TABLE Kitobxonlar ADD FOREIGN KEY (kitob_id) REFERENCES Kitoblar(id)",
+    "variantlar": [
+      "Tashqi kalit qo'shadi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvalni o'chiradi",
+      "Jadvalga yangi qator qo'shadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "RIGHT JOIN nima?",
+    "variantlar": [
+      "O'ng jadvaldagi barcha ma'lumotlarni va chap jadvaldan mos keladiganlarni birlashtiradi",
+      "Chap jadvaldagi barcha ma'lumotlarni va o'ng jadvaldan mos keladiganlarni birlashtiradi",
+      "Faqat mos keladigan ma'lumotlarni birlashtiradi",
+      "Faqat chap jadvalni birlashtiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "FULL OUTER JOIN nima?",
+    "variantlar": [
+      "Ikkala jadvaldagi barcha ma'lumotlarni birlashtiradi",
+      "Faqat chap jadvalni birlashtiradi",
+      "Faqat o'ng jadvalni birlashtiradi",
+      "Faqat mos keladigan ma'lumotlarni birlashtiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL da FULL OUTER JOIN qanday hosil qilinadi?",
+    "variantlar": [
+      "LEFT JOIN va RIGHT JOIN birga ishlatiladi",
+      "INNER JOIN ishlatiladi",
+      "CROSS JOIN ishlatiladi",
+      "UNION ishlatiladi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov vazifasi? SELECT Reyslar.yunalish, Poyezdlar.vaqt FROM Reyslar LEFT JOIN Poyezdlar ON Reyslar.id = Poyezdlar.reys_id",
+    "variantlar": [
+      "Barcha Reyslar va mos Poyezdlar ma'lumotlarini birlashtiradi",
+      "Faqat mos keladigan ma'lumotlarni birlashtiradi",
+      "Faqat Poyezdlar jadvalini chiqaradi",
+      "Faqat Reyslar jadvalini chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov vazifasi? SELECT Reyslar.yunalish, Poyezdlar.vaqt FROM Reyslar RIGHT JOIN Poyezdlar ON Reyslar.id = Poyezdlar.reys_id",
+    "variantlar": [
+      "Barcha Poyezdlar va mos Reyslar ma'lumotlarini birlashtiradi",
+      "Faqat mos keladigan ma'lumotlarni birlashtiradi",
+      "Faqat Reyslar jadvalini chiqaradi",
+      "Faqat Poyezdlar jadvalini chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Murakkab so'rov qanday tashkil topadi?",
+    "variantlar": [
+      "Bir nechta so'rovlarni birlashtirish orqali",
+      "Faqat bitta so'rov yozish orqali",
+      "Faqat SELECT ishlatish orqali",
+      "Faqat WHERE ishlatish orqali"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Ichki so'rov qayerda ishlatiladi?",
+    "variantlar": [
+      "SELECT, INSERT, UPDATE, DELETE ichida",
+      "Faqat SELECT ichida",
+      "Faqat INSERT ichida",
+      "Faqat UPDATE ichida"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Murakkab so'rov nima?",
+    "variantlar": [
+      "Bir nechta so'rovlarni birlashtirish",
+      "Faqat bitta so'rov yozish",
+      "Faqat SELECT ishlatish",
+      "Faqat WHERE ishlatish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov natijasi nima? SELECT * FROM Kitobxonlar WHERE kitob_id IN (SELECT id FROM Kitoblar)",
+    "variantlar": [
+      "Kitoblar jadvalidagi id lari bor kitobxonlarni chiqaradi",
+      "Barcha kitoblarni chiqaradi",
+      "Faqat kitob_id 0 ga teng bo'lganlarni chiqaradi",
+      "Faqat kitob_id NULL bo'lganlarni chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov natijasi? SELECT * FROM Poyezdlar WHERE junash_vaqti IN (SELECT MAX(junash_vaqti) FROM Poyezdlar)",
+    "variantlar": [
+      "Eng oxirgi jo'nash vaqtidagi poyezdlarni chiqaradi",
+      "Barcha poyezdlarni chiqaradi",
+      "Faqat birinchi poyezdni chiqaradi",
+      "Faqat NULL qiymatlarni chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov natijasi? SELECT * FROM Biletlar WHERE bilet_narxi > (SELECT AVG(bilet_narxi) FROM Biletlar)",
+    "variantlar": [
+      "O'rtacha narxdan yuqori biletlarni chiqaradi",
+      "Barcha biletlarni chiqaradi",
+      "Faqat eng arzon biletlarni chiqaradi",
+      "Faqat eng qimmat biletlarni chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Funksiya nima?",
+    "variantlar": [
+      "Qayta ishlatiladigan kod bloki",
+      "Jadval nomi",
+      "Ustun nomi",
+      "Ma'lumot turi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Funksiya qanday yaratiladi.",
+    "variantlar": [
+      "CREATE FUNCTION nomi() RETURNS ...",
+      "CREATE PROCEDURE nomi()",
+      "CREATE TABLE nomi()",
+      "CREATE VIEW nomi AS ..."
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "MySQL da o'zgaruvchi qanday yaratiladi?",
+    "variantlar": [
+      "SET @o'zgaruvchi_nomi = qiymat;",
+      "CREATE VARIABLE nomi;",
+      "NEW VARIABLE nomi;",
+      "ADD VARIABLE nomi;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "IF, ELSEIF, ELSE lar nima?",
+    "variantlar": [
+      "Shartli operatorlar",
+      "Matn funksiyalari",
+      "Jadval turlari",
+      "Ma'lumot turlari"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "BEGIN nima?",
+    "variantlar": [
+      "Blok boshi",
+      "Blok oxiri",
+      "Jadval nomi",
+      "Ustun nomi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Funksiya qanday o'chiriladi?",
+    "variantlar": [
+      "DROP FUNCTION nomi;",
+      "DELETE FUNCTION nomi;",
+      "REMOVE FUNCTION nomi;",
+      "ERASE FUNCTION nomi;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? CREATE FUNCTION Words(matn VARCHAR(50)) RETURNS VARCHAR(50) RETURN LEFT(matn, LENGTH(matn)-1)",
+    "variantlar": [
+      "Matndan oxirgi belgini olib tashlaydi",
+      "Matndan birinchi belgini olib tashlaydi",
+      "Matnni katta harfga o'zgartiradi",
+      "Matn uzunligini aniqlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "VIEW qanday yaratiladi?",
+    "variantlar": [
+      "CREATE VIEW nomi AS SELECT ...",
+      "CREATE FUNCTION nomi()",
+      "CREATE TABLE nomi()",
+      "CREATE PROCEDURE nomi()"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov vazifasi? CREATE VIEW bilet_max_price AS SELECT * FROM Biletlar WHERE bilet_narxi IN (SELECT MAX(bilet_narxi) FROM Biletlar)",
+    "variantlar": [
+      "Eng qimmat biletlarni ko'rsatuvchi view yaratadi",
+      "Barcha biletlarni ko'rsatuvchi view yaratadi",
+      "Faqat eng arzon biletlarni ko'rsatuvchi view yaratadi",
+      "Faqat eng eski biletlarni ko'rsatuvchi view yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Yaratilingan funksiyalardan qanday foydalaniladi?",
+    "variantlar": [
+      "SELECT funksiyanomi(parametrlar);",
+      "CALL funksiyanomi();",
+      "USE funksiyanomi();",
+      "RUN funksiyanomi();"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Protsedura qachon ishlatiladi?",
+    "variantlar": [
+      "Bir nechta amallar ketma-ket bajarilganda",
+      "Faqat SELECT ishlatilganda",
+      "Faqat INSERT ishlatilganda",
+      "Faqat UPDATE ishlatilganda"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov vazifasi? CREATE PROCEDURE Kitobxonlar() BEGIN     SELECT * FROM Kitobxonlar     WHERE kitoblar_soni > 5 END",
+    "variantlar": [
+      "Kitoblar soni 5 tadan ko'p bo'lgan kitobxonlarni chiqaradi",
+      "Barcha kitobxonlarni chiqaradi",
+      "Faqat kitoblar soni 5 tadan kam bo'lganlarni chiqaradi",
+      "Faqat kitoblar soni 5 ga teng bo'lganlarni chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "So'rov vazifasi? CREATE PROCEDURE Reyslar() BEGIN     SELECT * FROM Reyslar     WHERE junash_vaqti > '2023-01-01' END",
+    "variantlar": [
+      "2023-01-01 sanasidan keyingi reyslarni chiqaradi",
+      "Barcha reyslarni chiqaradi",
+      "Faqat 2023-01-01 sanasidagi reyslarni chiqaradi",
+      "Faqat 2023-01-01 sanasidan oldingi reyslarni chiqaradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Trigger qanday o'chiriladi?",
+    "variantlar": [
+      "DROP TRIGGER trigger_nomi;",
+      "DELETE TRIGGER trigger_nomi;",
+      "REMOVE TRIGGER trigger_nomi;",
+      "ERASE TRIGGER trigger_nomi;"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Triggerning AFTER operatori vazifasi nima?",
+    "variantlar": [
+      "Amal bajarilgandan so'ng trigger ishga tushadi",
+      "Amal bajarilishidan oldin trigger ishga tushadi",
+      "Trigger faqat o'chirishda ishlaydi",
+      "Trigger faqat yangilashda ishlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Triggerning BEFORE operatori vazifasi nima?",
+    "variantlar": [
+      "Amal bajarilishidan oldin trigger ishga tushadi",
+      "Amal bajarilgandan so'ng trigger ishga tushadi",
+      "Trigger faqat o'chirishda ishlaydi",
+      "Trigger faqat yangilashda ishlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Triggerning FOR EACH ROW operatori vazifasi nima?",
+    "variantlar": [
+      "Har bir qator uchun trigger ishga tushadi",
+      "Faqat birinchi qator uchun trigger ishga tushadi",
+      "Faqat oxirgi qator uchun trigger ishga tushadi",
+      "Faqat NULL qiymatlar uchun trigger ishga tushadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Trigger qaysi amallar bajarilganda ishga tushadi? Faqat to'g'ri amallar berilgan qatorni belgilang.",
+    "variantlar": [
+      "INSERT, UPDATE, DELETE",
+      "SELECT, INSERT, UPDATE",
+      "SELECT, DELETE, UPDATE",
+      "INSERT, SELECT, DELETE"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Python dasturlash tilida mysql MB bilan bog'lanish amalini bajaruvchi modul to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "mysql-connector-python",
+      "mysqlite3",
+      "psycopg2",
+      "sqlalchemy"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Python dasturlash tilida localhostdagi railway bazasiga ulanish so'rovi to'g'ri berilgan qatorni toping",
+    "variantlar": [
+      "mysql.connector.connect(host='localhost', database='railway', user='root', password='parol')",
+      "sqlite3.connect('railway.db')",
+      "psycopg2.connect(database='railway')",
+      "sqlalchemy.create_engine('mysql://root:parol@localhost/railway')"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Python dasturlash tilida  cursor.execute(\"Select * from Railway\")  kodi nima vazifani bajaradi?",
+    "variantlar": [
+      "Railway jadvalidan barcha ma'lumotlarni tanlaydi",
+      "Railway jadvalidan ma'lumot qo'shadi",
+      "Railway jadvalidan ma'lumot o'chiradi",
+      "Railway jadvalidan ma'lumot yangilaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Administratorlash nima?",
+    "variantlar": [
+      "Tizimni boshqarish va sozlash",
+      "Foydalanuvchi ma'lumotlarini o'chirish",
+      "Jadval yaratish",
+      "Ma'lumotlarni eksport qilish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CREATE USER vazifasi nima?",
+    "variantlar": [
+      "Yangi foydalanuvchi yaratadi",
+      "Foydalanuvchini o'chiradi",
+      "Foydalanuvchini yangilaydi",
+      "Foydalanuvchiga parol beradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DROP USER vazifasi nima?",
+    "variantlar": [
+      "Foydalanuvchini o'chiradi",
+      "Yangi foydalanuvchi yaratadi",
+      "Foydalanuvchini yangilaydi",
+      "Foydalanuvchiga parol beradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT operatori vazifasi nima?",
+    "variantlar": [
+      "Huquq berish",
+      "Huquqni olib tashlash",
+      "Foydalanuvchini o'chirish",
+      "Jadval yaratish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT ALL PRIVILEGES operatori vazifasi nima?",
+    "variantlar": [
+      "Barcha huquqlarni berish",
+      "Faqat o'qish huquqini berish",
+      "Faqat yozish huquqini berish",
+      "Faqat o'chirish huquqini berish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REVOKE operatori vazifasi nima?",
+    "variantlar": [
+      "Huquqni olib tashlash",
+      "Huquq berish",
+      "Foydalanuvchini o'chirish",
+      "Jadval yaratish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REVOKE ALL PRIVILEGES operatori vazifasi nima?",
+    "variantlar": [
+      "Barcha huquqlarni olib tashlash",
+      "Faqat o'qish huquqini olib tashlash",
+      "Faqat yozish huquqini olib tashlash",
+      "Faqat o'chirish huquqini olib tashlash"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ALTER USER qanday amal bajarishda foydalaniladi?",
+    "variantlar": [
+      "Foydalanuvchi ma'lumotlarini o'zgartirish",
+      "Foydalanuvchini o'chirish",
+      "Jadval yaratish",
+      "Huquq berish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "RENAME operatori vazifasi nima?",
+    "variantlar": [
+      "Nomi o'zgartirish",
+      "Jadval yaratish",
+      "Foydalanuvchini o'chirish",
+      "Huquq berish"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? CREATE USER 'Temur'@'localhost' IDENTIFIED BY 'qwerty123';",
+    "variantlar": [
+      "Yangi foydalanuvchi yaratadi va unga parol beradi",
+      "Foydalanuvchini o'chiradi",
+      "Foydalanuvchini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? GRANT SELECT ON Railways.Reyslar TO 'Temur'@'localhost';",
+    "variantlar": [
+      "Temur foydalanuvchisiga Reyslar jadvalini o'qish huquqini beradi",
+      "Temur foydalanuvchisini o'chiradi",
+      "Temur foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? GRANT ALL PRIVILEGES ON Railways.* TO 'Temur'@'localhost';",
+    "variantlar": [
+      "Temur foydalanuvchisiga Railways bazasidagi barcha huquqlarni beradi",
+      "Temur foydalanuvchisini o'chiradi",
+      "Temur foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "Quyidagi so'rov vazifasi nima? REVOKE CREATE, INSERT, DELETE, UPDATE ON Kutubxona.Kitobxonlar FROM 'Madina'@'localhost';",
+    "variantlar": [
+      "Madina foydalanuvchisidan Kutubxona.Kitobxonlar jadvalidagi CREATE, INSERT, DELETE, UPDATE huquqlarini olib tashlaydi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REVOKE CREATE, INSERT, DELETE, UPDATE ON Kutubxona.Kitobxonlar FROM 'Madina'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Madina foydalanuvchisidan Kutubxona.Kitobxonlar jadvalidagi CREATE, INSERT, DELETE, UPDATE huquqlarini olib tashlaydi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT ALL PRIVILEGES ON Railways.* TO 'Temur'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Temur foydalanuvchisiga Railways bazasidagi barcha huquqlarni beradi",
+      "Temur foydalanuvchisini o'chiradi",
+      "Temur foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT SELECT ON Railways.Reyslar TO 'Temur'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Temur foydalanuvchisiga Reyslar jadvalini o'qish huquqini beradi",
+      "Temur foydalanuvchisini o'chiradi",
+      "Temur foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CREATE USER 'Temur'@'localhost' IDENTIFIED BY 'qwerty123'; so'rov natijasi?",
+    "variantlar": [
+      "Yangi foydalanuvchi yaratadi va unga parol beradi",
+      "Foydalanuvchini o'chiradi",
+      "Foydalanuvchini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "RENAME USER 'Temur'@'localhost' TO 'Temurbek'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Foydalanuvchi nomini o'zgartiradi",
+      "Foydalanuvchini o'chiradi",
+      "Foydalanuvchini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ALTER USER 'Temur'@'localhost' IDENTIFIED BY 'newpass'; so'rov natijasi?",
+    "variantlar": [
+      "Foydalanuvchi parolini o'zgartiradi",
+      "Foydalanuvchini o'chiradi",
+      "Foydalanuvchini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DROP USER 'Temur'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Foydalanuvchini o'chiradi",
+      "Yangi foydalanuvchi yaratadi",
+      "Foydalanuvchini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT INSERT, UPDATE ON Kutubxona.Kitobxonlar TO 'Madina'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Madina foydalanuvchisiga Kutubxona.Kitobxonlar jadvalida INSERT va UPDATE huquqlarini beradi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REVOKE INSERT ON Kutubxona.Kitobxonlar FROM 'Madina'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Madina foydalanuvchisidan Kutubxona.Kitobxonlar jadvalidagi INSERT huquqini olib tashlaydi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT SELECT ON Kutubxona.Kitobxonlar TO 'Madina'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Madina foydalanuvchisiga Kutubxona.Kitobxonlar jadvalini o'qish huquqini beradi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT DELETE ON Kutubxona.Kitobxonlar TO 'Madina'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "Madina foydalanuvchisiga Kutubxona.Kitobxonlar jadvalidan o'chirish huquqini beradi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT UPDATE ON Kutubxona.Kitobxonlar TO 'Madina'@'localhost'; so'rov natijasi?",
+    "variantlar": [ 
+      "Madina foydalanuvchisiga Kutubxona.Kitobxonlar jadvalida yangilash huquqini beradi",
+      "Madina foydalanuvchisini o'chiradi",
+      "Madina foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "TRUNCATE TABLE operatori vazifasi nima?",
+    "variantlar": [
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi, lekin jadval tuzilmasini saqlab qoladi",
+      "Jadvalni butunlay o'chiradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvalga yangi qator qo'shadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DROP TABLE operatori vazifasi nima?",
+    "variantlar": [
+      "Jadvalni butunlay o'chiradi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi, lekin jadval tuzilmasini saqlab qoladi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvalga yangi qator qo'shadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DELETE FROM operatori vazifasi nima?",
+    "variantlar": [
+      "Jadvaldagi ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvalga yangi qator qo'shadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ALTER TABLE operatori vazifasi nima?",
+    "variantlar": [
+      "Jadval tuzilmasini o'zgartiradi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi",
+      "Jadvalga yangi qator qo'shadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CREATE INDEX operatori vazifasi nima?",
+    "variantlar": [
+      "Jadval ustuniga indeks yaratadi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DROP INDEX operatori vazifasi nima?",
+    "variantlar": [
+      "Jadval ustunidan indeksni o'chiradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "UNIQUE kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Ustundagi qiymatlarning yagona bo'lishini ta'minlaydi",
+      "Ustundagi qiymatlarning faqat musbat bo'lishini ta'minlaydi",
+      "Ustundagi qiymatlarning faqat butun bo'lishini ta'minlaydi",
+      "Ustundagi qiymatlarning faqat manfiy bo'lishini ta'minlaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "PRIMARY KEY kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Jadvalda ustunni asosiy kalit sifatida belgilaydi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "FOREIGN KEY kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Jadvalga tashqi kalit bog'lanishini o'rnatadi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CHECK kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Ustun qiymatlariga shart qo'yadi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "DEFAULT kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Ustunga standart qiymat beradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "NOT NULL kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Ustunda NULL qiymat bo'lishiga yo'l qo'ymaydi",
+      "Ustunda faqat musbat qiymatlar bo'lishiga yo'l qo'ymaydi",
+      "Ustunda faqat butun qiymatlar bo'lishiga yo'l qo'ymaydi",
+      "Ustunda faqat manfiy qiymatlar bo'lishiga yo'l qo'ymaydi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REFERENCES kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Tashqi kalit bog'lanishini o'rnatadi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "CASCADE kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Bog'langan jadvalda o'zgarish bo'lsa, shu o'zgarishni avtomatik amalga oshiradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "SET NULL kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Bog'langan ustun qiymatini NULL ga o'zgartiradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ON DELETE CASCADE kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Bog'langan jadvaldan o'chirilganda, shu bog'langan qatorlarni ham o'chiradi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "ON UPDATE CASCADE kalit so'zi vazifasi nima?",
+    "variantlar": [
+      "Bog'langan jadvalda yangilansa, shu bog'langan qatorlarni ham yangilaydi",
+      "Jadvalga yangi ustun qo'shadi",
+      "Jadvaldagi barcha ma'lumotlarni o'chiradi",
+      "Jadvalni butunlay o'chiradi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "user foydalanuvchisiga barcha bazalardagi barcha huquqlarni beradi",
+      "user foydalanuvchisini o'chiradi",
+      "user foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  },
+  {
+    "savol": "REVOKE ALL PRIVILEGES ON *.* FROM 'user'@'localhost'; so'rov natijasi?",
+    "variantlar": [
+      "user foydalanuvchisidan barcha bazalardagi barcha huquqlarni olib tashlaydi",
+      "user foydalanuvchisini o'chiradi",
+      "user foydalanuvchisini yangilaydi",
+      "Jadval yaratadi"
+    ],
+    "togri_javob": 1
+  }
+] 
